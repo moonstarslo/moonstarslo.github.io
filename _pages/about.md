@@ -12,11 +12,11 @@ I'm a fifth-year Ph.D. student in Xi'an Jiaotong University. My research interes
 I am very fortunate to be advised by [Prof.Pengju Ren](https://gr.xjtu.edu.cn/web/pengjuren) of CAG lab in Xi'an Jiaotong University.
 
 ## Publications
-1. Gelin Fu*, Tian Xia*, Ruiyang Chen, Zhongpei Luo, Wenzhe Zhao, Nanning Zheng, Pengju Ren "Differential- Matching Prefetcher for Indirect Memory Access", Proceedings of IEEE/ACM International Symposium on High-Performance Computer Architecture, 2024
+1. Gelin Fu\*, Tian Xia\*, Ruiyang Chen, Zhongpei Luo, Wenzhe Zhao, Nanning Zheng, Pengju Ren "Differential- Matching Prefetcher for Indirect Memory Access", Proceedings of IEEE/ACM International Symposium on High-Performance Computer Architecture, 2024
 
 2. Gelin Fu, Tian Xia, Shaoru Qu, Zhongpei Luo, Shuyu Li, Pengyv Cheng, Runfan Guo, Yitong Ding, Pengju Ren "PrSpMV: An Efficient Predictable Kernel for SpMV", IEEE International Conference on Computer Design, 2023
 
-3. Tian Xia*, Gelin Fu*, Chenyang Li, Luzheng Zhang, Ruiyang Chen, Zhongpei Luo, Wenzhe Zhao, Nanning Zheng, Pengju Ren "A Comprehensive Performance Model of Sparse Matrix-Vector Multiplication to Guild Optimization", IEEE Transactions on Parallel and Distributed Systems (TPDS), 2022
+3. Tian Xia\*, Gelin Fu\*, Chenyang Li, Luzheng Zhang, Ruiyang Chen, Zhongpei Luo, Wenzhe Zhao, Nanning Zheng, Pengju Ren "A Comprehensive Performance Model of Sparse Matrix-Vector Multiplication to Guild Optimization", IEEE Transactions on Parallel and Distributed Systems (TPDS), 2022
 
 4. Tian Xia, Boran Zhao, Jian Ma, Gelin Fu, Nanning Zheng, Pengjun Ren "An Energy-and-Area-Efficient CNN Accelerator for Universal Powers-of-Two Quantization", IEEE Transactions on Circuits and Systems-I: Regular Papers, 2023
 
