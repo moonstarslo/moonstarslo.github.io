@@ -20,8 +20,13 @@ Phone: (+86)-15723090881
 ## Techinical Skills
 
 **Computer Architecture**  X86, ARM, RISC-V
+
 **Programming Framework**  OpenMP, AVX, SVE
+
 **Computer Languages**     System Verilog, Assembly language, C, C++, Python
+
 **Simulators**             GEM5, QEMU
+
 **Tools**                  Vivado, VCS, Verdi, Perf
+
 **Language**               Proficient in written and spoken English
