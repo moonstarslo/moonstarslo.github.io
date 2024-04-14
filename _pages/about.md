@@ -18,7 +18,7 @@ I am very fortunate to be advised by [Prof.Pengju Ren](https://gr.xjtu.edu.cn/we
 
 3. Tian Xia*, Gelin Fu*, Chenyang Li, Luzheng Zhang, Ruiyang Chen, Zhongpei Luo, Wenzhe Zhao, Nanning Zheng, Pengju Ren "A Comprehensive Performance Model of Sparse Matrix-Vector Multiplication to Guild Optimization", IEEE Transactions on Parallel and Distributed Systems(TPDS), 2022
 
-4. Tian Xia, Boran Zhao, Jian Ma, \textbf{Gelin Fu}, Nanning Zheng, Pengjun Ren "An Energy-and-Area-Efficient CNN Accelerator for Universal Powers-of-Two Quantization", IEEE Transactions on Circuits and Systems-I: Regular Papers, 2023
+4. Tian Xia, Boran Zhao, Jian Ma, Gelin Fu, Nanning Zheng, Pengjun Ren "An Energy-and-Area-Efficient CNN Accelerator for Universal Powers-of-Two Quantization", IEEE Transactions on Circuits and Systems-\alpha: Regular Papers, 2023
 
 ## Techinical Skills
 
