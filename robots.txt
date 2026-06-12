@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://moonstar.github.io/al-folio/sitemap.xml
+Sitemap: https://moonstar.github.io/sitemap.xml
