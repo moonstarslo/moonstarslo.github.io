@@ -2,25 +2,33 @@ cv:
   name: Gelin Fu
   label: Assistant Professor
   email: fugelin@xjtu.edu.cn
-  location: Room 525, West Building 1, Yanxiang Street No.99, Xi'an, China
 
   sections:
+    Contact:
+      - label: Email
+        details: fugelin@xjtu.edu.cn
+      - label: Location
+        details: "Room 525, West Building 1, Yanxiang Street No.99, Xi'an, China"
+
     Education:
       - institution: Xi'an Jiaotong University
         studyType: Ph.D.
-        date: 2025
+        start_date: 2019
+        end_date: 2025
         highlights:
           - "Advisor: Prof. Pengju Ren and Prof. Tian Xia"
 
       - institution: The University of British Columbia
         studyType: Joint Ph.D.
-        date: 2024
+        start_date: 2023
+        end_date: 2024
         highlights:
           - "Advisor: Prof. Mieszko Lis and Prof. Prashant J. Nair"
 
       - institution: Chongqing University
         studyType: B.S.
-        date: 2019
+        start_date: 2015
+        end_date: 2019
 
     Experience:
       - company: Xi'an Jiaotong University
