@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.navbar-brand {
+  font-weight: normal !important;
+}
+
+.navbar-brand span {
+  font-weight: normal !important;
+}
