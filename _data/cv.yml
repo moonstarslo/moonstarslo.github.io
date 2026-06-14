@@ -2,14 +2,9 @@ cv:
   name: Gelin Fu
   label: Assistant Professor
   email: fugelin@xjtu.edu.cn
+  location: "Room 525, West Building 1, Yanxiang Street No.99, Xi'an, China"
 
   sections:
-    Contact:
-      - label: Email
-        details: fugelin@xjtu.edu.cn
-      - label: Location
-        details: "Room 525, West Building 1, Yanxiang Street No.99, Xi'an, China"
-
     Education:
       - institution: Xi'an Jiaotong University
         studyType: Ph.D.
