@@ -6,15 +6,17 @@ cv:
 
   sections:
     Education:
-      - institution: Xi'an Jiatong University
+      - institution: Xi'an Jiaotong University
         studyType: Ph.D.
-        Advisor: Prof. Pengju Ren and Prof. Tian Xia
         end_date: 2025
+        highlights:
+          - "Advisor: Prof. Pengju Ren and Prof. Tian Xia"
 
       - institution: The University of British Columbia
-        studyType: joint Ph.D.
-        Advisor: Prof. Mieszko Lis and Prof. Prashant J. Nair
+        studyType: Joint Ph.D.
         end_date: 2024
+        highlights:
+          - "Advisor: Prof. Mieszko Lis and Prof. Prashant J. Nair"
       
       - institution: Chongqing University
         studyType: B.S.
@@ -30,4 +32,4 @@ cv:
         awarder: Graduate School, Xi'an Jiaotong University
 
     Publications:
-        See the Publications tab for the full list of conference and journal publications.
+      - bullet: "See the [Publications](/publications/) tab for the full list of conference and journal publications."
