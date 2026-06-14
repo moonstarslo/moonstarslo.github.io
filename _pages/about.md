@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-size: 0.85em;">Office: Room 525, West Building 1</p>
-    <p style="font-size: 0.85em;">Yanxiang Street, No.99, Xi'an, China</p>
-    <p style="font-size: 0.85em;">Email: fugelin@xjtu.edu.cn</p>
+    <p style="font-size: 0.8em;">Office: Room 525, West Building 1</p>
+    <p style="font-size: 0.8em;">Yanxiang Street, No.99, Xi'an, China</p>
+    <p style="font-size: 0.8em;">Email: fugelin@xjtu.edu.cn</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
