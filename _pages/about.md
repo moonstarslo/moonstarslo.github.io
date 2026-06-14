@@ -27,4 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Dr.Fu is an assistant professor at Xi'an Jiaotong University, where he is a member of Institute of Artificial Intelligence and Robotics (IAIR). His research focuses on improving efficiency for modern AI and high-performance computing. He has contributed several publications to top-tier conferences and journals, including HPCA, ISCA, TPDS, and TCAD.
+Dr.Fu is an assistant professor at Xi'an Jiaotong University, where he is a member of Institute of Artificial Intelligence and Robotics (IAIR). His research interests are in compilers and computer architecture with an emphasis on improving efficiency for modern AI and high-performance computing. He has contributed several publications to top-tier conferences and journals, including HPCA, ISCA, TPDS, and TCAD.

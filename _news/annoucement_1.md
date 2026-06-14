@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Become an assistant professor at College of Aritifical Intelligence in Xi'an Jiaotong University.
+I have joined the College of Aritifical Intelligence in Xi'an Jiaotong University as an assistant professor.
