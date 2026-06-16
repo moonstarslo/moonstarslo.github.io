@@ -1,0 +1,8 @@
+overrides:
+  - path: _layouts/cv.liquid
+    owner_gem: al_folio_core
+    owner_version: "1.0.11"
+    reason: >
+      Added {{ content }} before {% al_folio_cv_render %} so that page-level
+      <style> blocks in cv.md are injected into the page. The gem layout omits
+      {{ content }}, making inline CSS overrides impossible without this local shadow.
