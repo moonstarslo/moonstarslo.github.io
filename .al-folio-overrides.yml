@@ -1,0 +1,15 @@
+overrides:
+  - path: _includes/cv/education.liquid
+    owner_gem: al_folio_cv
+    owner_version: "1.0.0"
+    reason: >
+      Strip captured `location`/`date` values so the orphaned fa-location-dot
+      icon no longer renders when no location is set, and remove default list
+      bullets from the highlights list.
+  - path: _includes/cv/experience.liquid
+    owner_gem: al_folio_cv
+    owner_version: "1.0.0"
+    reason: >
+      Strip captured `location` value so the orphaned fa-location-dot icon no
+      longer renders when no location is set, and remove default list bullets
+      from the highlights list.
