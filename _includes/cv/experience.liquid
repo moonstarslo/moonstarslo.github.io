@@ -1,14 +1,19 @@
 {% comment %}
 Local override of al_folio_cv's cv/experience.liquid.
-Fixes:
+Fixes (all are global-CSS artifacts the gem doesn't reset for the Tailwind build):
   - Orphaned location pin: upstream captures `location` with surrounding
     newlines, so `location != ''` is true even with no location data and the
-    fa-location-dot icon renders with no text. Adding `| strip` makes the
-    guard behave as intended (icon shows only when location text exists).
+    fa-location-dot icon renders with no text. `| strip` makes the guard
+    behave as intended (icon shows only when location text exists).
+  - Black list bullet next to each entry: the outer `list-group` <ul> falls
+    back to default `disc` markers (no Bootstrap reset) -> list-style: none.
+  - Grey line above the date badge: `table:not(.table) td` in main.css adds a
+    1px top border; the date table is `.table-cv` (not `.table`) so it matches
+    -> border-top: 0 on its cells.
   - Removes the default list bullets on the highlights list.
 {% endcomment %}
 
-<ul class="card-text font-weight-light list-group list-group-flush">
+<ul class="card-text font-weight-light list-group list-group-flush" style="list-style: none; padding-left: 0">
   {% for entry in entries %}
     <li class="list-group-item">
       <div class="row">
@@ -27,7 +32,7 @@ Fixes:
           <table class="table-cv">
             <tbody>
               <tr>
-                <td>
+                <td style="border-top: 0">
                   <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
                 </td>
               </tr>
@@ -35,7 +40,7 @@ Fixes:
               {% assign location = location | strip %}
               {% if location != '' %}
                 <tr>
-                  <td>
+                  <td style="border-top: 0">
                     <p class="location">
                       <i class="fa-solid fa-location-dot iconlocation"></i>
                       {{ location }}

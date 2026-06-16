@@ -1,0 +1,64 @@
+{% comment %}
+Local override of al_folio_cv's cv/awards.liquid.
+Fixes (global-CSS artifacts the gem doesn't reset for the Tailwind build):
+  - Black list bullet next to each entry: the outer `list-group` <ul> falls
+    back to default `disc` markers (no Bootstrap reset) -> list-style: none.
+  - Grey line above the date badge: `table:not(.table) td` in main.css adds a
+    1px top border; the date table is `.table-cv` (not `.table`) so it matches
+    -> border-top: 0 on its cells.
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush" style="list-style: none; padding-left: 0">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      <div class="row">
+        {% capture start_date %}{% if entry.date %}{{ entry.date }}{% endif %}{% endcapture %}
+        {% assign start_date = start_date | strip %}
+        {% if start_date != '' %}
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td style="border-top: 0">
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{- start_date | split: '-' | slice: 0, 1 | join: '' -}}</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+            {% if entry.url %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+              </h6>
+            {% elsif entry.title %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
+            {% endif %}
+            {% if entry.awarder %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% endif %}
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+          </div>
+        {% else %}
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            {% if entry.url %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+              </h6>
+            {% elsif entry.title %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
+            {% endif %}
+            {% if entry.awarder %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% endif %}
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

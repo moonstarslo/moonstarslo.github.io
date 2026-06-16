@@ -3,13 +3,20 @@ overrides:
     owner_gem: al_folio_cv
     owner_version: "1.0.0"
     reason: >
-      Strip captured `location`/`date` values so the orphaned fa-location-dot
-      icon no longer renders when no location is set, and remove default list
-      bullets from the highlights list.
+      Strip captured location/date so the orphaned fa-location-dot icon no
+      longer renders without text; remove the disc list bullet on entries
+      (list-style:none) and the 1px td top border (border-top:0) that main.css
+      applies to non-.table tables; drop bullets on the highlights list.
   - path: _includes/cv/experience.liquid
     owner_gem: al_folio_cv
     owner_version: "1.0.0"
     reason: >
-      Strip captured `location` value so the orphaned fa-location-dot icon no
-      longer renders when no location is set, and remove default list bullets
-      from the highlights list.
+      Same fixes as education.liquid: strip orphaned location icon, remove the
+      entry list bullet and the td top border, drop highlights bullets.
+  - path: _includes/cv/awards.liquid
+    owner_gem: al_folio_cv
+    owner_version: "1.0.0"
+    reason: >
+      Remove the entry list bullet (list-style:none) and the 1px td top border
+      (border-top:0) on the date table so award entries match the cleaned-up
+      experience/education sections.
