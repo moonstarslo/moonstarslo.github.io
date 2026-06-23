@@ -18,6 +18,7 @@ nav_order: 5
 
 **Graduated Students**
 
+- **Mingzhuo Yin** (B.S., 2026) - Risingwave startup
 - **Yitong Ding** (B.S., 2025) — M.S. student at SJTU; Primary advisor: Prof. [Tian Xia](https://faculty.xjtu.edu.cn/tian_xia/zh_CN/index.htm)
 - **Ruiyang Chen** (B.S., 2023) — Ph.D. student at SJTU
 - **Lucheng Zhang** (B.S., 2023) — M.S. student at UC Berkeley
