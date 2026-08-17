@@ -11,7 +11,7 @@ nav_order: 5
 
 **Current Students**
 
-- **Yilun An** (M.S., 2025–present) — Co-advisor: Prof. Pengju Ren
+- **Yilun An** (M.S., 2025–present) — Co-advisor: Prof. [Pengju Ren](https://gr.xjtu.edu.cn/pengjuren/zh_CN/index.htm)
 - **Ruoxi Zhou** (M.S., 2026–present) — Co-advisor: Prof. [Tian Xia](https://faculty.xjtu.edu.cn/tian_xia/zh_CN/index.htm)
 - **Jiahao Pan** (B.S., 2025–present)
 - **Zewei Guo** (B.S., 2025–present)
